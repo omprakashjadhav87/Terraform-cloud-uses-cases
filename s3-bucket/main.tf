@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform-state" {
-  bucket = "terraform-s3-bucket-state-file"
+  bucket = "terraform-s3-bucket-state-file1049201804"
   lifecycle{
    prevent_destroy = true
 
